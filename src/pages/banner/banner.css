@@ -1,0 +1,69 @@
+.banner_section {
+    margin-top: 12rem !important;
+    height: auto;
+}
+.banner_second_buutton {
+    display: none;
+}
+.banner_container {
+    width: 100% !important;
+    max-width: 1050px !important;
+    background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
+    height: auto;
+    border-radius: 30px;
+    margin:  auto;
+    align-items: center;
+    display: grid;
+    padding: 5rem;
+    
+}
+.banner_header-1 {
+    text-align: center;
+    color: white !important;
+    font-size: 3rem;
+    font-weight: normal !important;;
+}
+.banner_paragraph {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.banner_box {
+    gap: 1rem !important;
+    display: grid !important;
+}
+@media (max-width: 1090px) {
+    .banner_section  {
+        max-width: 900px;
+        display: flex;
+        margin: auto;
+    }
+  }
+  @media (max-width: 1090px) {
+    .banner_section  {
+        max-width: 900px;
+        display: flex;
+        margin: auto;
+    }
+  }
+  @media (max-width: 960px) {
+    .banner_section  {
+        max-width: 700px;
+        display: flex;
+        margin: auto;
+    }
+  }
+  @media (max-width: 770px) {
+    .banner_section  {
+        max-width: 600px;
+        display: flex;
+        margin: auto;
+    }
+    .banner_button {
+        display: none !important;
+    }
+  .banner_second_buutton {
+    display: inline-block;
+    display: flex;
+    margin: auto;
+  }
+}

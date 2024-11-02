@@ -1,0 +1,144 @@
+/* Base styling for larger screens */
+.testimonial_section {
+    margin-top: 12rem !important;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 1rem; /* Add padding for small screens */
+}
+
+.testimonial_section_repeat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.testimonial_box {
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+.testimonial_box_image img {
+    border-radius: 20px;
+}
+
+.testimonial_paragraph {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: normal !important;
+    color: rgb(192, 188, 188);
+}
+
+.testimonial_header-3 {
+    color: rgb(139, 216, 16); 
+}
+
+.testimonial_button {
+    margin-top: 2rem !important;
+    display: flex;
+    align-items: center !important;
+    gap: 20px;
+}
+
+.testimonial_icon {
+    width: 30px;
+    background-color: rgb(187, 180, 180) !important;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.testimonial_play {
+    position: absolute;
+}
+
+.testimonial_box_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+}
+
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, rgb(233, 231, 231), rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .testimonial_section {
+        width: 90%;
+    }
+    .testimonial_section_repeat {
+        grid-template-columns: 1fr; /* Stack columns vertically on smaller screens */
+        gap: 1rem;
+    }
+
+    .testimonial_paragraph {
+        font-size: 1.5rem; /* Reduce font size for smaller screens */
+        margin-top: 1.5rem;
+    }
+
+    .testimonial_button {
+        gap: 10px;
+        margin-top: 1.5rem !important;
+    }
+
+    .testimonial_icon {
+        width: 25px; /* Reduce icon size */
+    }
+
+    .testimonial_box {
+        padding: 15px; /* Less padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial_section {
+        margin-top: 5rem;
+        padding: 0 0.5rem; /* Additional padding on very small screens */
+    }
+
+    .testimonial_paragraph {
+        font-size: 1.2rem;
+    }
+
+    .testimonial_button span {
+        font-size: 1rem; /* Adjust button text size */
+    }
+
+    .testimonial_box_image img {
+        width: 100%; /* Full-width images on very small screens */
+    }
+}
+
+/* Responsive styling */
+@media (max-width: 740px) {
+    .testimonial_section {
+        margin-top: 10rem !important;
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: auto;
+        padding: 0 1rem; /* Add padding for small screens */
+    }
+  }
+@media (max-width: 490px) {
+    .testimonial_play {
+      max-width: 50px;
+      width: 20%;
+    }
+  }
+  @media (max-width: 905px) {
+    .testimonial_paragraph {
+        font-size: 1.80rem !important;
+    }
+  }
+
+

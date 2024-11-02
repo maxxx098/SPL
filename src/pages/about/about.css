@@ -1,0 +1,29 @@
+.about_section {
+    display: flex;
+    justify-content: center;
+    height: auto !important;
+    padding-top: 8rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.about_paragraph {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.about_span {
+    color: white;
+}
+/* Responsive styling */
+@media (max-width: 1000px) {
+    .about_section {
+      max-width: 80% !important;
+      
+    }
+  }
+  @media (max-width: 580px) {
+    .about_paragraph {
+        font-size: 1.8rem !important;
+      
+    }
+  }
