@@ -125,6 +125,16 @@
 
     }
 }
+@media (max-width: 380px) {
+    .burger-icon {
+        display: block;
+        margin-left: 10rem;
+    }
+    .nav-links {
+        display: none; /* Hide nav links by default on mobile */
+
+    }
+}
   @media (max-width: 1340px) {
     .navbar{
         gap: 4rem; 
@@ -164,10 +174,21 @@
  
  
  
-  @media (max-width: 952px) {
-  
-    
-
+  @media (max-width: 435px) {
+    .navbar{
+        gap: 3rem; 
+    }
+    .burger-icon {
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+    .logo img {
+        height: 3rem;
+    }
+    .logo_letter {
+        font-size: 13px;
+    }
   }
 
 
+  

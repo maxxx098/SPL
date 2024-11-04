@@ -3,7 +3,9 @@
     align-items: center;   
     max-width: 100%;  
   }
-  
+  .home_second_buutton {
+    display: none; 
+  }
   .home_title {
     margin-top: 5rem;
     text-align: center;           
@@ -167,14 +169,35 @@
   }
 }
 
-@media (max-width: 594px) {
+@media (max-width: 600px) {
   .newsletter {
     gap: 1rem !important;
     max-width: 25rem !important;
+    display: none !important;
   }
   .button_button {
     padding: 1rem  !important;
     
   }
+  .home_second_buutton {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+  }
   
 }
+@media (max-width: 435px ) {
+  .section_images_extension {
+    display: none;
+  }
+  .header-1 {
+    font-size: 3rem;
+  }
+  .home_paragraph {
+    font-size: 13px;
+    max-width: 350px;
+  }
+}
+

@@ -59,12 +59,17 @@ const Home = () => {
               onChange={(e) => setMessage(e.target.value)} 
             />
           </div>
-          <div className='newsletter_button'> 
+          <div  className='newsletter_button'> 
             <button className='button_button button--flex-end' onClick={handleConnectClick}>
               Connect with Us!
             </button>
           </div>
         </div>
+        <div   className="home_second_buutton">
+            <button className='button_button button--flex-end'>
+                   Connect with me !
+                </button>
+            </div>
         <ToastContainer position="top-right" autoClose={3000} />
       </section>
       <section className='section_images_extension'>

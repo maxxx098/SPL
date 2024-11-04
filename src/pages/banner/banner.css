@@ -9,12 +9,12 @@
     width: 100% !important;
     max-width: 1050px !important;
     background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
-    height: auto;
+    min-height: 500px;
     border-radius: 30px;
     margin:  auto;
     align-items: center;
     display: grid;
-    padding: 5rem;
+    padding: 3rem;
     
 }
 .banner_header-1 {
@@ -66,4 +66,13 @@
     display: flex;
     margin: auto;
   }
+}
+@media (max-width: 500px) {
+    .banner_header-1 {
+        font-size: 2.2rem;
+    }
+    .banner_section {
+        max-width: 350px;
+    }
+   
 }
